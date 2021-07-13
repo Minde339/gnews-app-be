@@ -17,8 +17,8 @@ Live application example: http://18.197.112.132/
 2. Front end from [this repository](https://github.com/Minde339/gnews-app-fe).
 3. MongoDB Atlas [MongoDB Atlas Getting Started](https://docs.atlas.mongodb.com/getting-started/) to log user actions in the backend.
 4. After setting MongoDB atlas in gnews-app-be/ ADD .env file with
-   DATABASE=mongodb+srv://<USER>:<PASSWORD>@cluster0.rnbkp.mongodb.net/<YOUR_DATABASE_NAME>?retryWrites=true&w=majority
-   DATABASE_PASSWORD=<YOUR_PASSWORD>
+5. In .env file add: DATABASE=mongodb+srv://<USER>:<PASSWORD>@cluster0.rnbkp.mongodb.net/<YOUR_DATABASE_NAME>?retryWrites=true&w=majority
+6. In .env file add: DATABASE_PASSWORD=<YOUR_PASSWORD>
 
 #### 2. Starting application
 
